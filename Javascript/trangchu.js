@@ -1,5 +1,5 @@
 // Hiệu Ứng CHuyển Ảnh
-var imgs=['../Ảnh/banner1.webp','../Ảnh/banner2.jpg','../Ảnh/banner3.png']
+var imgs=['Ảnh/banner1.webp','Ảnh/banner2.jpg','Ảnh/banner3.png']
 var i=1
 setInterval(() => {
   
@@ -10,10 +10,10 @@ setInterval(() => {
    
 },3000)
 // Hiệu ứng chuyển danh mục sản phẩm
-var donghonam={linkhref:"../HTML/donghonam.html", linkanh :"../Ảnh/donghonam.jpg"}
-var donghonu={linkhref:"../HTML/donghonu.html", linkanh :"../Ảnh/donghonu.jpg"}
-var donghodoi={linkhref:"../HTML/donghodoi.html", linkanh :"../Ảnh/donghodoi.jpg"}
-var donghotrangtri={linkhref:"../HTML/donghotrangtri.html", linkanh :"../Ảnh/donghotrangtri.jpg"}
+var donghonam={linkhref:"HTML/donghonam.html", linkanh :"Ảnh/donghonam.jpg"}
+var donghonu={linkhref:"HTML/donghonu.html", linkanh :"Ảnh/donghonu.jpg"}
+var donghodoi={linkhref:"HTML/donghodoi.html", linkanh :"Ảnh/donghodoi.jpg"}
+var donghotrangtri={linkhref:"HTML/donghotrangtri.html", linkanh :"Ảnh/donghotrangtri.jpg"}
 var listdmsp=[donghonam,donghonu,donghodoi,donghotrangtri]
 var sp=0
 //  listvitrianh
